@@ -1,6 +1,6 @@
 <?php
 
-$connect = new PDO('mysql:host=localhost;dbname=ajaxdb', 'root', 'sekhar');
+$connect = new PDO('mysql:host=localhost;dbname=ajaxdb', 'root', '');
 if(isset($_POST["id"]))
 {
  $query = "
