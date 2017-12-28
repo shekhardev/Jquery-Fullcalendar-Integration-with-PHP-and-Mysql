@@ -2,7 +2,7 @@
 
 if(isset($_POST["id"]))
 {
- $connect = new PDO('mysql:host=localhost;dbname=ajaxdb', 'root', 'sekhar');
+ $connect = new PDO('mysql:host=localhost;dbname=ajaxdb', 'root', '');
  $query = "
  DELETE from events WHERE id=:id
  ";
